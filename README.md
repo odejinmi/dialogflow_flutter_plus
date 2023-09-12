@@ -4,7 +4,7 @@ dialogflow_flutter_plus is a flutter plugin that helps the user to use Dialogflo
 
 ### ⭐ the repo to support the project. Thanks!
 
-[Feedback](https://github.com/GoyalSidhant/dialogflow_flutter_plus/issues) and [Pull Requests](https://github.com/GoyalSidhant/dialogflow_flutter_plus/pulls) are most welcome!
+[Feedback](https://github.com/odejinmi/dialogflow_flutter_plus/issues) and [Pull Requests](https://github.com/odejinmi/dialogflow_flutter_plus/pulls) are most welcome!
 
 
 ## Installation
@@ -12,7 +12,7 @@ dialogflow_flutter_plus is a flutter plugin that helps the user to use Dialogflo
 * Add this to your package's pubspec.yaml file:
 ```
 dependencies:
-  dialogflow_flutter_plus: ^0.0.3
+  dialogflow_flutter_plus: ^0.0.1
 ```
 * You can install packages from the command line:
   with Flutter:
@@ -28,7 +28,7 @@ $ flutter packages get
 ---
 ## ScreenShot
 
-<p align="center"><img width=50% src="https://github.com/GoyalSidhant/dialogflow_flutter_plus/blob/main/screenshot.png"></p>
+<p align="center"><img width=50% src="https://github.com/odejinmi/dialogflow_flutter_plus/blob/main/screenshot.png"></p>
 
 
 

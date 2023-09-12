@@ -1,7 +1,7 @@
 name: dialogflow_flutter_plus
 description: Plugin for using DialogFLow in flutter applications
-version: 1.0.0
-homepage: https://github.com/GoyalSidhant/dialogflow_flutter_plus
+version: 0.0.1
+homepage: https://github.com/odejinmi/dialogflow_flutter_plus.git
 
 environment:
   sdk: '>=3.1.1 <4.0.0'
