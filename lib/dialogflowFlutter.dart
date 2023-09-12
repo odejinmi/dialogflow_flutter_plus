@@ -1,9 +1,8 @@
 import 'dart:async';
 
-import 'package:dialogflow_flutter/googleAuth.dart';
+import 'package:dialogflow_flutter_plus/googleAuth.dart';
 import 'dart:convert';
 import 'dart:io';
-import 'package:meta/meta.dart';
 
 class Intent {
   String? name;

@@ -1,4 +1,4 @@
-group 'com.example.dialogflow_flutter'
+group 'com.example.dialogflow_flutter_plus'
 version '1.0-SNAPSHOT'
 
 buildscript {

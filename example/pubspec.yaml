@@ -1,18 +1,17 @@
-name: dialogflow_flutter_example
-description: Demonstrates how to use the dialogflow_flutter plugin.
+name: dialogflow_flutter_plus_example
+description: Demonstrates how to use the dialogflow_flutter_plus plugin.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: '>=3.1.1 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
-  dialogflow_flutter:
+  dialogflow_flutter_plus:
     path: ../
 
   cupertino_icons: ^1.0.2

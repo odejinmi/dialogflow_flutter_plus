@@ -1,7 +1,7 @@
 import 'package:bubble/bubble.dart';
-import 'package:dialogflow_flutter/googleAuth.dart';
+import 'package:dialogflow_flutter_plus/googleAuth.dart';
 import 'package:flutter/material.dart';
-import 'package:dialogflow_flutter/dialogflowFlutter.dart';
+import 'package:dialogflow_flutter_plus/dialogflowFlutter.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,10 +9,10 @@ void main() {
 
 class MyApp extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  MyAppState createState() => MyAppState();
 }
 
-class _MyAppState extends State<MyApp> {
+class MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -28,12 +28,12 @@ class _MyAppState extends State<MyApp> {
 
 class ChatBotScreen extends StatefulWidget {
   @override
-  _ChatBotScreenState createState() => _ChatBotScreenState();
+  ChatBotScreenState createState() => ChatBotScreenState();
 }
 
-class _ChatBotScreenState extends State<ChatBotScreen> {
+class ChatBotScreenState extends State<ChatBotScreen> {
   final messageInsert = TextEditingController();
-  List<Map> messsages = List();
+  List<Map> messsages = [];
   void response(query) async {
     AuthGoogle authGoogle =
         await AuthGoogle(fileJson: "assets/farmtech-fh9j-3db6e0409c71.json")
@@ -43,7 +43,7 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
     setState(() {
       messsages.insert(0, {
         "data": 0,
-        "message": aiResponse.getListMessage()[0]["text"]["text"][0].toString()
+        "message": aiResponse.getListMessage()?[0]["text"]["text"][0].toString()
       });
     });
   }

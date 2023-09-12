@@ -1,4 +1,4 @@
-package com.example.dialogflow_flutter
+package com.example.dialogflow_flutter_plus
 
 import androidx.annotation.NonNull
 
@@ -18,7 +18,7 @@ class DialogflowFlutterPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var channel : MethodChannel
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "dialogflow_flutter")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "dialogflow_flutter_plus")
     channel.setMethodCallHandler(this)
   }
 

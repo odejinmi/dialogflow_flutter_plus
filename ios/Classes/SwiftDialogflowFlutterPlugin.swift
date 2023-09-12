@@ -3,7 +3,7 @@ import UIKit
 
 public class SwiftDialogflowFlutterPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "dialogflow_flutter", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "dialogflow_flutter_plus", binaryMessenger: registrar.messenger())
     let instance = SwiftDialogflowFlutterPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }

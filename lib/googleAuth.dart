@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:googleapis_auth/auth_io.dart';
 import 'package:http/http.dart';
-import 'package:meta/meta.dart';
 import 'package:http/http.dart' as http;
 
 class AuthGoogle {

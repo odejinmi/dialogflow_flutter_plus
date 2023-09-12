@@ -1,6 +1,6 @@
-# dialogflow_flutter_example
+# dialogflow_flutter_plus_example
 
-Demonstrates how to use the dialogflow_flutter plugin.
+Demonstrates how to use the dialogflow_flutter_plus plugin.
 
 ## Getting Started
 
